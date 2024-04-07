@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Daftar Film</title>
+    <style>
+        .scrollable-cards {
+            overflow-x: auto;
+            white-space: nowrap;
+        }
+        
+        .mt-4 {
+            margin-top: 10px; 
+        }
+        
+        #corner-image {
+            top: 10px;
+            left: 10px;
+            width: 300px;
+            height: 100%;
+        }
+        
+        #background-image {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 300px;
+            height: 300px;
+            z-index: -1;
+            object-fit: cover;
+        }
+        
+    </style>
+</head>
+<body style="background-image: linear-gradient(90deg, #0a422a, #157154, #338f5c);">
+    
+    <div class="container mt-4">
+        <h2 style="color:white">Rekomendasi Film</h2>
+        <div class="scrollable-cards">
+            <div class="card-deck">
+                <div class="card">
+                    <img src="film1.jpeg" class="card-img-top" alt="Poster Film 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">Comic 8</h5>
+                        <p class="card-text">Tahun: 2014<br>Sutradara: Anggy Umbara</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="film2.jpeg" class="card-img-top" alt="Poster Film 2">
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">Pamali: Dusun Pocong</h5>
+                        <p class="card-text">Tahun: 2023<br>Sutradara: Bobby Prasetyo</p>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <img src="film3.jpeg" class="card-img-top" alt="Poster Film 3">
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">Agak Laen</h5>
+                        <p class="card-text">Tahun: 2024<br>Sutradara: Muhadkly Acho</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="film4.jpeg" class="card-img-top" alt="Poster Film 4">
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">Ancika</h5>
+                        <p class="card-text">Tahun: 2024<br>Sutradara: Benni Setiawan</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <h2 class="mt-4"style="color:white">Film Populer</h2>
+        <div class="card-deck">
+            <div class="card">
+                <img src="film5.jpeg" class="card-img-top" alt="Poster Film 5">
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">Warkop DKI Reborn: Jangkrik Boss</h5>
+                    <p class="card-text">Tahun: 2017<br>Sutradara: Anggy Umbar</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="film6.jpeg" class="card-img-top" alt="Poster Film 6">
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">My Stupid Boss</h5>
+                    <p class="card-text">Tahun: 2019<br>Sutradara: 	Upi Avianto</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="film7.jpeg" class="card-img-top" alt="Poster Film 7">
+                <div class="card-body">
+                    <h5 class="card-title">Buya Hamka</h5>
+                    <p class="card-text text-truncate">Tahun: 2023<br>Sutradara: Fajar Bustomi</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="film8.jpeg" class="card-img-top" alt="Poster Film 8">
+                <div class="card-body">
+                    <h5 class="card-title text-truncate">Mencuri Raden Saleh</h5>
+                    <p class="card-text">Tahun: 2022<br>Sutradara: Angga Dwimas Sasongko</p>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
